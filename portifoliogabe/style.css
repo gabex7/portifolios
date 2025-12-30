@@ -18,7 +18,6 @@ html{
 body{
     width: 100%;
     height: 100vh;
-    overflow: hidden;
     background-color: black;
     color: white;
 }
@@ -40,7 +39,7 @@ header{
 
 .logo {
     font-size: 3rem;
-    color: #b74b4b ;
+    color: blue;
     font-weight: 800;
     cursor: pointer;
     transition: 0.5s ease;
@@ -61,8 +60,8 @@ nav a{
 
 nav a:hover,
 nav a.active{
- color: #b74b4b;
- border-bottom: 3px solid #b74b4b;
+ color: blue;
+ border-bottom: 3px solid blue;
 }
 
 @media(max-width:995px){
@@ -72,7 +71,7 @@ nav a.active{
         top: 0;
         right: 0;
         width: 40%;
-        border-left: 3px solid #b74b4b;
+        border-left: 3px solid blue;
         border-bottom-left-radius: 2rem ;
         padding: 1rem solid;
         background-color: #161616;
@@ -92,7 +91,7 @@ nav a.active{
     nav a.active{
        padding: 1rem;
        border-radius: 0.5rem;
-       border-bottom: 0.5rem solid #b74b4b;
+       border-bottom: 0.5rem solid blue;
     }
 } 
 
@@ -115,7 +114,7 @@ section{
 }
 
 span{
-    color: #b74b4b;
+    color: blue;
 }
 
 .home-content h3{
@@ -132,7 +131,7 @@ span{
     position: relative;
     width: 32vw;
     border-radius: 50%;
-    box-shadow: 0 0 25px solid #b74b4b;
+    box-shadow: 0 0 25px solid blue;
     cursor: pointer;
     transition: 0.2s linear;
 }
@@ -149,19 +148,19 @@ span{
     width: 4rem;
     height: 4rem;
     background-color: transparent;
-    border: 0.2rem solid #b74b4b;
+    border: 0.2rem solid blue;
     font-size: 2rem;
     border-radius: 50%;
     margin: 3rem 1.5rem 3rem;
     transition: 0.3s ease;
-    color: #b74b4b;
+    color: blue;
 }
 
 .social-icons a:hover{
     color: black;
     transform: scale(1.3) translateY(-5px);
-    background-color: #b74b4b;
-    box-shadow: 0 0 25px #b74b4b;
+    background-color: blue;
+    box-shadow: 0 0 25px blue;
 }
 
 .btn{
@@ -170,19 +169,19 @@ span{
     background-color: black;
     border-radius: 4rem;
     font-size: 1.6rem;
-    color: #b74b4b;
+    color: blue;
     letter-spacing: 0.3rem;
     font-weight: 600;
-    border: 2px solid #b74b4b;
+    border: 2px solid blue;
     transition: 0.3s ease;
     cursor: pointer;
 }
 
 .btn:hover{
-    transform: scale(1.03);
-    background-color: #b74b4b;
     color: black;
-    box-shadow: 0 0 25 #b74b4b;
+    transform: scale(1.3) translateY(-5px);
+    background-color: blue;
+    box-shadow: 0 0 25px blue;
 }
 
 .typing-text{
@@ -197,7 +196,7 @@ span{
 
 .typing-text span:before{
     content: "Software Developer";
-    color: #b74b4b;
+    color: blue;
     animation: words 20s infinite;
 }
 
@@ -213,7 +212,7 @@ span{
 
 @keyframes cursor{
     to{
-        border-left: 3px solid #b74b4b;
+        border-left: 3px solid blue;
     }
 }
 
@@ -223,7 +222,7 @@ span{
      }
 
      21%, 40%{
-        content:"Software developer"
+        content:"developer sft"
      }
 
      41%, 60%{
@@ -264,3 +263,83 @@ span{
         margin-top: 4rem ;
     }
 }
+
+/* projetos */ 
+
+.projetos{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    text-align: center;
+}
+
+#projetosh1{
+    font-size: 40px;
+    color: blue;
+}
+.projetosdivisao{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    
+   
+
+}
+
+.projeto1{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    font-size: 20px;
+    align-items: center;
+    text-align: left;
+}
+
+
+.titulos1{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+#projectimages{
+    border-radius: 10%;
+    cursor: pointer;
+    transition: 0.3s ease;
+    width: 400px;
+    height: 200px;
+    border: 5px solid blue;
+
+}
+
+#projectimages:hover{
+       transform: scale(1.03);
+       box-shadow:  -5px 5px 25px blue;
+
+}
+
+
+.projeto2{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    font-size: 20px;
+    align-items: center;
+    text-align: left;
+}
+
+
+
+.projeto3{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    font-size: 20px;
+    align-items: center;
+    text-align: left;
+}
+
+
+
