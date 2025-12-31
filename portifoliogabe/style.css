@@ -54,7 +54,7 @@ nav a{
     color: white;
     margin-left: 4rem;
     font-weight: 500;
-    transition: 0.3 ease;
+    transition: 0.3s ease;
     border-bottom: 3px solid transparent;
 }
 
@@ -77,7 +77,7 @@ nav a.active{
         background-color: #161616;
         border-top:  0.1rem solid rgba(0, 0,0,0.1);
     }
-
+ 
     nav.active{
         display: block;
     }
@@ -139,6 +139,26 @@ span{
 .home-img img.hover{
     font-size: 1.8rem;
     font-weight: 500;
+}
+
+#fotoperfil{
+   animation: pular 2s ease-in-out infinite;
+   
+   
+}
+
+/* #fotoperfil::before{
+    content: "";
+    position: absolute;
+    inset: -10px;
+    background : inherit;
+    filter: blur(15px);
+} */
+
+@keyframes pular{
+    0% { transform: translatey(0);}
+    50% { transform: translatey(-20px);}
+    100% { transform: translatey(0);}
 }
 
 .social-icons a{
@@ -341,5 +361,16 @@ span{
     text-align: left;
 }
 
+/* serviços */
 
+.servicos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#servicesh1{
+    font-size: 40px;
+    color: blue;
+}
 
