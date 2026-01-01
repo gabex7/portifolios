@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 <title>PortifolioGabriel</title>
 </head>
 <body>
@@ -84,16 +84,18 @@
 
     <section class="servicos" id="servicos">
       <h1 id="servicesh1"> services</h1>
-      <div class="carrocelServico" id="Carroser">
 
-        <div  class="containerServicos" id="imgser">
+      <div class="containerSlider" id="Carroser">
 
-        <img src="imagens/project3.jpg" alt="" id="imgService">
-        <img src="imagens/projetc1.jpg" alt="" id="imgService">
-        <img src="imagens/projetc2.jpg" alt="" id="imgService">       
-      <img src="imagens/project4.jpg" alt="" id="imgService">
-
+<button id="prevButon" ><img src="imagens/arrow.png" alt=""  ></button>
+        <div  class="containerImagens" id="imgser">
+        <img src="imagens/project3.jpg" alt="" id="imgService" class="sliderImg on">
+        <img src="imagens/projetc1.jpg" alt="" id="imgService"  class="sliderImg">
+        <img src="imagens/projetc2.jpg" alt="" id="imgService"  class="sliderImg">
+        <img src="imagens/projetc4.jpg" alt="" id="imgService"  class="sliderImg">
+        
       </div>
+      <button id="nextButon" ><img src="imagens/arrow.png" alt=""> </button>
       </div>
     </section>
 
