@@ -433,9 +433,17 @@ span{
     transform: rotate(180deg);
 }
 
-.textoServico, h1{
-    font-size: 30px;
+
+
+.textoServico {
+    font-size: 60px;
     text-align: left;
+    color: blue;
+}
+
+.h1servico{
+    text-align: left;
+    font-size: 50px;
     color: blue;
 }
 
