@@ -32,3 +32,12 @@ function prevSlide() {
 
 btnNext.addEventListener('click', nextSlide);
 btnPrev.addEventListener('click', prevSlide);
+
+// luz no mouse
+
+// document.addEventListener("mousemove", (e) =>{
+//     const x = e.pageX;
+//     const y = e.pageY
+
+//     document.body.style.background = `radial-gradient(circle at ${x}px ${y}px, rgba(0, 0, 255, 0.6) 40px, rgba(0, 0, 0, 0.95) 80px)`;
+// })
